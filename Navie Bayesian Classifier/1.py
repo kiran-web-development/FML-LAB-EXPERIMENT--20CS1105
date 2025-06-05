@@ -6,7 +6,7 @@ from sklearn import tree
 from sklearn.preprocessing import LabelEncoder
 from sklearn.naive_bayes import GaussianNB
 
-data = pd.read_csv('Navie Bayesian Classifier/Data Set.csv')
+data = pd.read_csv('Navie Bayesian Classifier\Tennisdata.csv')
 print("The first 5 values of data is :\n",data.head())
 
 X = data.iloc[:,:-1]
