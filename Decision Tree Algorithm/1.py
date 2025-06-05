@@ -29,7 +29,11 @@ plt.close()
 #DataSet Used:-
 
 #In folder, there is a dataset named "dataset.csv" which contains the following data:
-#Age,Experience,Rank,Nationality,Go
+#Age,Experience,Rank,Nationality,Go.
+
+
+#OutPut:-
+#the output of the program is a decision tree saved as 'decision_tree.png' in this folder Decision tree Algorithm.
 
 
 #Result:-The above program is executed successfully.

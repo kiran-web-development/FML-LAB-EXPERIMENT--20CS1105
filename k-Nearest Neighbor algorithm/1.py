@@ -30,12 +30,45 @@ y_pred2 = classifier2.predict(X_test)
 y_pred2
 acc2 = accuracy_score(y_test, y_pred2)
 print("Accuracy:", acc2)
+# Plot and save confusion matrix for k=5
+plt.figure(figsize=(8, 6))
 cm = confusion_matrix(y_test, y_pred)
+print("\nConfusion Matrix for k=5:")
 print(cm)
-sns.heatmap(cm, annot=True)
+sns.heatmap(cm, annot=True, fmt='d', cmap='Blues')
+plt.title('Confusion Matrix (k=5)')
+plt.xlabel('Predicted')
+plt.ylabel('Actual')
+plt.savefig('confusion_matrix_k5.png')
+plt.close()
+
+# Plot and save confusion matrix for k=20
+plt.figure(figsize=(8, 6))
 cm2 = confusion_matrix(y_test, y_pred2)
+print("\nConfusion Matrix for k=20:")
 print(cm2)
-sns.heatmap(cm2, annot=True)
+sns.heatmap(cm2, annot=True, fmt='d', cmap='Blues')
+plt.title('Confusion Matrix (k=20)')
+plt.xlabel('Predicted')
+plt.ylabel('Actual')
+plt.savefig('confusion_matrix_k20.png')
+plt.close()
+
+# Plot and save scatter plot of the data
+plt.figure(figsize=(10, 6))
+scatter = plt.scatter(X['sepal_length'], X['petal_length'], c=pd.factorize(y)[0], cmap='viridis')
+plt.xlabel('Sepal Length')
+plt.ylabel('Petal Length')
+plt.title('Iris Dataset - Sepal Length vs Petal Length')
+plt.colorbar(scatter, label='Species')
+plt.savefig('iris_scatter_plot.png')
+plt.close()
+
+# Create a pair plot for all features
+import seaborn as sns
+pair_plot = sns.pairplot(df, hue='species')
+pair_plot.savefig('iris_pair_plot.png')
+plt.close()
 
 
 
