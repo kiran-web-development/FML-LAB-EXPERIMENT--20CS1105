@@ -1,5 +1,3 @@
-
-
 <div style="background: linear-gradient(to right, #ff6b6b20, #ff6b6b40); border-left: 4px solid #dc3545; padding: 20px; border-radius: 10px; margin: 30px 0; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
 <h2 style="color: #dc3545; font-family: 'Poppins', 'Segoe UI', sans-serif; margin: 0 0 15px 0; font-size: 1.5em;">
   ⚠️ Important Disclaimer
@@ -178,8 +176,10 @@ Each program in this repository follows a consistent structure:</p>
 
 ## 💻 Sample Code Blocks
 
+<div style="background: linear-gradient(to right, #e8f5e9, #f5f5f5); padding: 20px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin: 20px 0;">
+
 <details>
-<summary>🔄 Loading and Preprocessing Data</summary>
+<summary style="color: #2e7d32; font-weight: bold; cursor: pointer;">🔄 Loading and Preprocessing Data</summary>
 
 ```python
 # Example of data loading and preprocessing
@@ -198,7 +198,7 @@ y = data['target']
 </details>
 
 <details>
-<summary>📊 Visualization Example</summary>
+<summary style="color: #2e7d32; font-weight: bold; cursor: pointer;">📊 Visualization Example</summary>
 
 ```python
 # Example of creating visualizations
@@ -212,9 +212,10 @@ plt.title('Data Visualization')
 plt.savefig('visualization.png')
 ```
 </details>
+</div>
 
-<div style="background-color: #f6f8fa; padding: 15px; border-radius: 5px; margin: 10px 0;">
-<h3>💡 Tips for Google Colab</h3>
+<div style="background: linear-gradient(to right, #e3f2fd, #f5f5f5); padding: 20px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin: 20px 0;">
+<h3 style="color: #1565c0;">💡 Tips for Google Colab</h3>
 
 ```python
 # Mount Google Drive (if needed)
@@ -231,7 +232,7 @@ drive.mount('/content/drive')
 
 ## 📝 Important Notes
 
-<div style="background-color:lightyellow; padding: 15px; border-radius: 5px; margin: 10px 0;">
+<div style="background: linear-gradient(to right, #fff3e0, #fff8e1); padding: 20px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin: 20px 0;">
 
 1. 📊 **Output Files**
    - Many programs generate visualization outputs (.png files)
@@ -247,7 +248,11 @@ drive.mount('/content/drive')
    - For large datasets, consider using smaller subsets
    - Clear output and restart runtime if needed
 
+</div>
+
 ## Running the Programs
+
+<div style="background: linear-gradient(to right, #e8eaf6, #f5f5f5); padding: 20px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin: 20px 0;">
 
 1. Open the desired .py file
 2. Upload required dataset
@@ -263,8 +268,11 @@ data = pd.read_csv("Navie Bayesian Classifier/Tennisdata.csv")
 data = pd.read_csv("/content/Tennisdata.csv")
 ```
 
+</div>
+
 ## 🛠️ Requirements
 
+<div style="background: linear-gradient(to right, #f3e5f5, #f5f5f5); padding: 20px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin: 20px 0;">
 <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; padding: 15px;">
 
 ### Core Libraries
@@ -286,8 +294,11 @@ data = pd.read_csv("/content/Tennisdata.csv")
 - ![pgmpy](https://img.shields.io/badge/pgmpy-Latest-purple) pgmpy (for Bayesian networks)
 
 </div>
+</div>
 
 ## 📊 Program Outputs
+
+<div style="background: linear-gradient(to right, #e0f7fa, #f5f5f5); padding: 20px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin: 20px 0;">
 
 Each program generates specific outputs:
 
@@ -310,7 +321,11 @@ Each program generates specific outputs:
 
 </details>
 
+</div>
+
 ## 🤝 Contributing
+
+<div style="background: linear-gradient(to right, #f1f8e9, #f5f5f5); padding: 20px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin: 20px 0;">
 
 We welcome contributions! Here's how you can help:
 
@@ -319,11 +334,16 @@ We welcome contributions! Here's how you can help:
 - 🔧 Submit pull requests
 - 📚 Improve documentation
 
+</div>
+
 ## 📄 License
+
+<div style="background: linear-gradient(to right, #fafafa, #f5f5f5); padding: 20px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin: 20px 0;">
 
 This project is licensed under the MIT License.
 
 <div align="center">
   <img src="https://img.shields.io/badge/Made%20with-❤️-red.svg" alt="Made with love-kiran">
+</div>
 </div>
 
