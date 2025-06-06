@@ -112,3 +112,10 @@ food5k/
     ├── 1_validation_image2.png
     └── ...
     """
+
+
+
+#Note:-That this program was not executing successfully due to some errors in the code.remaing all the programs were executed successfully.
+
+
+#Result:-The above program is not executed successfully due to some errors in the code.
